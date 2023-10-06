@@ -24,9 +24,22 @@ var itemList = document.querySelector('#items');
 // itemList.firstElementChild.textContent='helooo';
 
 //lastChild
-console.log(itemList.lastChild)
+// console.log(itemList.lastChild)
 
-//lastElementChild
+// //lastElementChild
 
-console.log(itemList.lastElementChild,"===================lastElementchild====================")
-itemList.lastElementChild.style.backgroundColor='red'
+// console.log(itemList.lastElementChild,"===================lastElementchild====================")
+// itemList.lastElementChild.style.backgroundColor='red'
+
+//nextSibling
+console.log(itemList.nextSibling)
+
+//nextElementSibling
+console.log(itemList.nextElementSibling,"==========================nextElementSibling=================")
+
+//previousSibling
+console.log(itemList.previousSibling,"===================previousSibling==================================")
+
+//previousElementSibling
+console.log(itemList.previousElementSibling,"======================previousElementSibling================")
+itemList.previousElementSibling.style.color='red';
