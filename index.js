@@ -5,3 +5,5 @@ var itemList = document.querySelector('#items');
 // console.log(itemList.parentNode.parentNode.parentNode)
 
 
+//parentElements
+itemList.parentElement.style.backgroundColor='green';//same as parentNode
